@@ -5,7 +5,7 @@
 
 BASH_OPTION=bash
 
-IMG=argnctu/sis:jetson-tx2
+IMG=argsis/sis:jetson-tx2
 
 xhost +
 containerid=$(docker ps -aqf "ancestor=${IMG}") && echo $containerid

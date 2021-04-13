@@ -54,5 +54,5 @@ docker run -it \
   $DOCKER_OPTS \
   --privileged \
   --security-opt seccomp=unconfined \
-  argnctu/sis:jetson-tx2 \
+  argsis/sis:jetson-tx2 \
   bash
